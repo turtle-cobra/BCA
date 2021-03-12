@@ -1,12 +1,11 @@
 body {
-	background-color: #e1e1e1;
-
-
+	background-color: white;
 	
-}
 
+	}
 
-h1 {	 
+h1 {	
+
 
 }
 h5{
@@ -17,14 +16,13 @@ h5{
 h6{
 	
 }
-.navbar-brand {
-	font-size: 4rem;
-	font-family: 'Abril Fatface', cursive;
-}
+
 
 
 .container-fluid {
+	
 	padding:0 4% 0;
+
 }
 
 
@@ -34,15 +32,16 @@ h6{
 	background-color: #6c6c6c;
 }
 
-#navbar .container-fluid {
-	
-}
-
 
 .navbar-search-icon {
 	font-size: 2rem;
 	margin-left: 50px;
 
+}
+
+.navbar-brand {
+	font-size: 4rem;
+	font-family: 'Abril Fatface', cursive;
 }
 
 
@@ -56,7 +55,7 @@ h6{
 
 #title {
 	background-color: #6c6c6c;	
-	margin-bottom: 2%;	
+	padding-bottom: 2%;	
 	padding-top: 10%;
 }
 
@@ -108,7 +107,7 @@ h6{
 /*Services section*/
 
 #services{
-	/*padding:5%;*/
+	background-color: #f8f8f8;
 	
 }
 
@@ -133,6 +132,11 @@ h6{
 	position: relative;
 	top:-45%;
 
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.29);
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.29);
+
+
 }
 
 
@@ -146,15 +150,23 @@ h6{
 
 
 /*About US*/
-#about-us{
-	margin-bottom: 10%;
+#about-us {
+	background-color: #f6f6f6;
 	
 }
+
+
+
 #about-us p{
 	/*font-size: 1.2rem;*/
 }
 
+.without-fields {
+	
+	padding:0;
 
+	
+}
 
 .about-us-icon{
 	color: #1f5889;
@@ -162,6 +174,8 @@ h6{
 }
 .checked {
 	text-align: center;
+	padding-bottom: 5%;
+	margin-top: 2%;
 	
 }
 
@@ -170,6 +184,16 @@ h6{
      text-align: left;
    }
 }
+
+	
+	
+
+.about-us-image {
+	width:inherit;
+}
+
+
+
 
 
 
@@ -181,8 +205,86 @@ h6{
 /*How it works*/
 
 #how-it-works {
+	background-color: white;
+	margin-bottom: 10%;
+	
 	
 }
+
+
+
+.how-it-works-unit1{
+/*background-color: #060606;*/
+padding: 10%;
+height: 100%;
+width: 100%;
+background-color: black;
+
+}
+
+.how-it-works-unit2 {
+background-color: #0f4c81;
+padding: 20%;
+height: 100%;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+
+.how-it-works-unit2 h3  {
+	color:white;
+	
+	position: relative;
+}
+
+.how-it-works-unit2 p{
+	color:white;
+	
+	position: relative;
+}
+
+.how-it-works-unit3{
+
+padding: 20%;
+height: 100%;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+
+.how-it-works-unit4{
+background-color: #060606;
+padding: 20%;
+height: 100%;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+
+
+.how-it-works-unit4 h3  {
+	color:white;
+}
+
+.how-it-works-unit4 p{
+	color:white;
+}
+.how-it-works-unit-digit {
+	font-size:15rem;
+	position: absolute;
+	top:-25%;
+	right: -12%;
+	font-weight: bold;
+	color: black;
+	opacity: 0.1;
+}
+
+.digit-white{
+	color:white;
+}
+
+
+
 
 
 
@@ -199,7 +301,6 @@ h6{
 #our-team {
 	
 }
-
 
 
 
